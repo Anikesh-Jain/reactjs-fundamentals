@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+button{
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+}
+
+h1{
+  padding: 10px 80px;
+  margin: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 100px;
+  width: 350px;
+  text-align: center;
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'helvetica neue';
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+body {
+  background-color: black;
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  white-space: nowrap;
+  text-decoration: underline;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #333;
+}
+
+.nav div{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  transition: color .25s;
+}
+
+.nav a:hover{
+  color: #facc15;
+}
